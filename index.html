@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lii Méndez · Portfolio</title>
+  <meta name="description" content="Portfolio de Lii Méndez — Desarrollo web, datos y proyectos interactivos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#">LII<span>·</span>MÉNDEZ</a>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn-small" href="https://github.com/liimendez" target="_blank" rel="noopener">GitHub ↗</a>
+  </header>
+
+  <!-- HERO - estilo ejemplo 1 -->
+  <main>
+    <section class="hero">
+      <p class="hero-badge">● Disponible para oportunidades</p>
+      <h1>Hola, soy <span class="violet">Lii Méndez</span>.<br>Creo experiencias web<br>que se sienten reales.</h1>
+      <p class="hero-sub">Desarrollo web + datos. Me gusta que lo que hago se vea bien, suene bien y funcione bien — desde un blog con identidad propia hasta un piano que se puede tocar en el navegador.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#proyectos">Ver proyectos ↓</a>
+        <a class="btn-ghost" href="https://github.com/liimendez" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>3</strong><span>Proyectos publicados</span></div>
+        <div><strong>HTML · CSS · JS</strong><span>Stack principal</span></div>
+        <div><strong>GitHub Pages</strong><span>Demos en vivo</span></div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS - estilo ejemplo 3, cards -->
+    <section id="proyectos" class="section">
+      <div class="section-head">
+        <p class="eyebrow">PORTFOLIO</p>
+        <h2>Proyectos destacados</h2>
+        <p>Tres proyectos, tres estilos, una misma idea: que se sienta real.</p>
+      </div>
+
+      <div class="cards">
+        <!-- 1. CATDOG -->
+        <article class="card">
+          <div class="card-visual catdog">
+            <span class="card-emoji">🐱🐶</span>
+            <span class="card-tag">Blog / Revista</span>
+          </div>
+          <div class="card-body">
+            <h3>CatDog — Blog / Revista</h3>
+            <p>Blog personal con estética de revista: notas, secciones y un diseño que mezcla lo editorial con lo divertido. Proyecto personal desde cero.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Diseño editorial</span></div>
+            <div class="card-links">
+              <a class="btn-primary" href="https://liimendez.github.io/catdog-blog/" target="_blank" rel="noopener">Ver demo ↗</a>
+              <a class="btn-ghost" href="https://github.com/liimendez/catdog-blog" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. PIANO -->
+        <article class="card featured">
+          <div class="card-visual piano">
+            <span class="card-emoji">🎹</span>
+            <span class="card-tag">Interactivo · Sonido</span>
+          </div>
+          <div class="card-body">
+            <h3>LII · Piano Interactivo</h3>
+            <p>Piano realista sobre mesa de madera. Tocable con mouse, dedo o teclado. Sonido real con Web Audio API, notas, demo automática y diseño de piano de cola.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Web Audio API</span></div>
+            <div class="card-links">
+              <a class="btn-primary" href="https://liimendez.github.io/piano/" target="_blank" rel="noopener">Tocar piano ↗</a>
+              <a class="btn-ghost" href="https://github.com/liimendez/piano" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. SURVEY -->
+        <article class="card">
+          <div class="card-visual survey">
+            <span class="card-emoji">📋</span>
+            <span class="card-tag">Formulario / UI</span>
+          </div>
+          <div class="card-body">
+            <h3>Survey Form — Formulario</h3>
+            <p>Formulario rediseñado en estilo oscuro violeta/verde, con validación, accesibilidad y un diseño limpio que combina con el resto del portfolio.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Formularios</span><span>UI</span></div>
+            <div class="card-links">
+              <a class="btn-primary" href="https://liimendez.github.io/survey-form/" target="_blank" rel="noopener">Ver demo ↗</a>
+              <a class="btn-ghost" href="https://github.com/liimendez/survey-form" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SOBRE MI / EXPERIENCIA -->
+    <section id="sobre-mi" class="section about">
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">SOBRE MÍ</p>
+          <h2>Me interesa el detalle que hace que algo se sienta real.</h2>
+          <p>Soy Lii Méndez. Trabajo en desarrollo web y me estoy formando en datos / bases de datos. Me gusta mezclar las dos cosas: interfaces que se ven bien y datos que tienen sentido.</p>
+          <p>En mis proyectos cuido el sonido, la textura, la tipografía y la interacción — no solo que funcione, sino que se sienta bien usarlo.</p>
+        </div>
+        <div class="skills">
+          <h3>Qué uso</h3>
+          <ul>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Datos:</strong> SQL, bases de datos, planillas</li>
+            <li><strong>Herramientas:</strong> Git, GitHub, VS Code, GitHub Pages</li>
+            <li><strong>Diseño:</strong> Tipografía, color, layouts editoriales</li>
+          </ul>
+          <h3>Qué estoy buscando</h3>
+          <p>Oportunidades como desarrolladora, en datos / DBA, o un rol mixto donde pueda crecer en las dos áreas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section contact">
+      <h2>¿Hacemos algo juntos?</h2>
+      <p>Si te gustó alguno de los proyectos, escribime por GitHub.</p>
+      <a class="btn-primary" href="https://github.com/liimendez" target="_blank" rel="noopener">Ver mi GitHub ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Lii Méndez · Hecho con HTML + CSS · <a href="https://github.com/liimendez" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+</body>
+</html>
+
